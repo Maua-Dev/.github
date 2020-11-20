@@ -1,0 +1,11 @@
+{
+    "name": "Maua Dev Workflow",
+    "description": "Maua Dev Python CI workflow template.",
+    "iconName": "logo",
+    "categories": [
+        "Python"
+    ],
+    "filePatterns": [
+        "*.py"        
+    ]
+}
