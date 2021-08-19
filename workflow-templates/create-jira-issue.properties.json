@@ -1,0 +1,5 @@
+{
+    "name": "Workflow para criação de issues no Jira",
+    "description": "Replica a issue criada no repositório dentro do Jira do Time Marocas",
+    "iconName": "logo"
+}
