@@ -1,0 +1,5 @@
+{
+    "name": "Workflow para criação de CD no ECS",
+    "description": "Builda o projeto, sobe no ECS e atualiza o serviço",
+    "iconName": "logo"
+}
