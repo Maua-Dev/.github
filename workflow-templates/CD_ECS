@@ -27,7 +27,12 @@ jobs:
       - name: Set Region
         id: aws_region
         run: |
-          echo "::set-output name=value::sa-east-1"
+          echo "::set-output name=value::sa-east-1" ## HARD CODE! ##
+          
+      - name: Set ECS Service
+        id: ecs_service
+        run: |
+          echo "::set-output name=value::someName"  ## HARD CODE! ##
       
       - name: Configure AWS credentials
         uses: aws-actions/configure-aws-credentials@v1
@@ -70,5 +75,5 @@ jobs:
           aws-region: ${{ steps.aws_region.outputs.value }}
       
       - name: Updates Cluster
-        run: aws ecs update-service --cluster  --service ${{ github.event.repository.name }}-service --force-new-deployment
+        run: aws ecs update-service --cluster ${{ steps.ecs_service.outputs.value }} --service ${{ github.event.repository.name }}-service --force-new-deployment
           
