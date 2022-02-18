@@ -1,0 +1,74 @@
+# This is a basic workflow to create a CD from dockerfile in repo to ECS Cluster
+
+## Will we need to add on secrets
+# - AWS_ACCESS_KEY_ID
+# - AWS_SECRET_ACCESS_KEY
+# - ECR_REPOSITORY: Repository name
+
+name: CD_ECS
+
+
+on:
+  push:
+    branches:
+      [ develop ] ## HARD CODE! ##
+  workflow_dispatch:
+
+jobs:
+
+  deploy-to-aws:
+
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+      
+      
+      - name: Set Region
+        id: aws_region
+        run: |
+          echo "::set-output name=value::sa-east-1"
+      
+      - name: Configure AWS credentials
+        uses: aws-actions/configure-aws-credentials@v1
+        with:
+          aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          aws-region: ${{ steps.aws_region.outputs.value }}
+      
+      - name: Login to Amazon ECR 
+
+        id: login-ecr
+        uses: aws-actions/amazon-ecr-login@v1
+
+      - name: Build, tag, and push image to Amazon ECR
+        env:
+          ECR_REGISTRY: ${{ steps.login-ecr.outputs.registry }}
+          ECR_REPOSITORY: ${{ secrets.ECR_REPOSITORY }}
+          IMAGE_TAG: ${{ github.sha }}
+        run: |
+          docker build -t $ECR_REGISTRY/$ECR_REPOSITORY:latest .
+          docker push $ECR_REGISTRY/$ECR_REPOSITORY:latest
+          
+          
+          
+          
+  atualizarInstancia:
+  
+    needs: deploy-to-aws
+
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+      
+      - name: Configure AWS credentials
+        uses: aws-actions/configure-aws-credentials@v1
+        with:
+          aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          aws-region: ${{ steps.aws_region.outputs.value }}
+      
+      - name: Updates Cluster
+        run: aws ecs update-service --cluster  --service ${{ github.event.repository.name }}-service --force-new-deployment
+          
