@@ -1,7 +1,7 @@
 
 ![foto dev expandida](https://github.com/Maua-Dev/.github/assets/81604963/373cea2d-2c18-419a-bf00-535c032c6e8c)
 
-A Dev. Community Mauá, fundada em 2021, é uma extracurricular do Instituto Mauá de Tecnologia e tem por objetivo o desenvolvimento e criação de soluções computacionais. Voltada aos alunos que gostam de desafios e buscando sempre trazer um contato mais eficaz com a áreas de computação, estamos aqui para incorporar, principalmente, o trabalho em equipe e as práticas do mercado com o mundo da tecnologia e inovação. 🚀🧑‍🚀
+A Dev. Community Mauá, fundada em 2021, é um grupo acadêmico do Instituto Mauá de Tecnologia e tem por objetivo o desenvolvimento e criação de soluções computacionais. Voltada aos alunos que gostam de desafios e buscando sempre trazer um contato mais eficaz com as áreas de computação, estamos aqui para incorporar, principalmente, o trabalho em equipe e as práticas do mercado com o mundo da tecnologia e inovação. 🚀🧑‍🚀
 
 ## Quem somos ? 🤔
 
@@ -10,7 +10,7 @@ Estudantes do Instituto Mauá de Tecnologia aprendendo cada dia mais sobre como 
 ## O que já fizemos? 😎
 
 Nossos membros estão constantemente se capacitando e criando formas novas de aprender e ensinar. Você pode conferir na aba de <strong>fixados</strong> alguns dos nossos principais estudos e projetos. 😁
-Dentre eles, podemos destacar templates de Backend e Frontend com Arquitetura Limpa, além de respositórios voltados a DevOps como o DevMaua Setup. Nos nossos projetos visamos a agilidade e contamos com diversas esteiras de CI/CD, além de infraestrutura Serverless com AWS. ☁️
+Dentre eles, podemos destacar templates de Backend e Frontend com Arquitetura Limpa, além de repositórios voltados a DevOps como o DevMaua Setup. Nos nossos projetos visamos a agilidade e contamos com diversas esteiras de CI/CD, além de infraestrutura Serverless com AWS. ☁️
 
 ## Quais nossos principais projetos? ⚒️
 
