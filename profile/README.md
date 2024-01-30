@@ -5,16 +5,16 @@ A Dev. Community Mauá, fundada em 2021, é uma extracurricular do Instituto Mau
 
 ## Quem somos ? 🤔
 
-Estudantes do Instituto Mauá de Tecnologia aprendendo cada dia mais sobre como desenvolver projetos utilizando a programação como ferramente de trabalho. 👩‍💻👨‍💻
+Estudantes do Instituto Mauá de Tecnologia aprendendo cada dia mais sobre como desenvolver projetos utilizando a programação como ferramenta de trabalho. 👩‍💻👨‍💻
 
 ## O que já fizemos? 😎
 
-Nossos membros estão constantemente se capacitando e criando formas novas de aprender e ensinar, você pode conferir na aba de fixados alguns dos nossos principais estudos. 😁
-Podemos destacar entre eles templates de Backend e Frontend com Arquitetura Limpa, além de respositórios voltados a DevOps como o DevMaua Setup. Nos nossos projetos visamos a agilidade e contamos com diversas esteiras de CI/CD, além de infraestrutura Serverless com AWS. ☁️
+Nossos membros estão constantemente se capacitando e criando formas novas de aprender e ensinar. Você pode conferir na aba de <strong>fixados</strong> alguns dos nossos principais estudos e projetos. 😁
+Dentre eles, podemos destacar templates de Backend e Frontend com Arquitetura Limpa, além de respositórios voltados a DevOps como o DevMaua Setup. Nos nossos projetos visamos a agilidade e contamos com diversas esteiras de CI/CD, além de infraestrutura Serverless com AWS. ☁️
 
 ## Quais nossos principais projetos? ⚒️
 
-A Dev. Community Mauá já realizou diversos projetos juntamente com o IMT, entre eles a Smile 2022 e 2023 e o DevMédias. Além disso temos projetos voltados ao público da faculdade como o MauaFood e Portal Interno. 🧱
+A Dev. Community Mauá já realizou diversos projetos juntamente com o IMT, entre eles a Smile 2022 e 2023 e o DevMédias. Além disso, temos projetos voltados ao público da faculdade, como o MauaFood e Portal Interno. 🧱
 Estamos em busca de expandir cada vez mais nossos horizontes, realizando projetos internos e externos. ✈️
 
 ## Como entrar em contato?
