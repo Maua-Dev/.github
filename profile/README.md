@@ -10,11 +10,11 @@ Estudantes do Instituto Mauá de Tecnologia aprendendo cada dia mais sobre como 
 ## O que já fizemos? 😎
 
 Nossos membros estão constantemente se capacitando e criando formas novas de aprender e ensinar. Você pode conferir na aba de <strong>fixados</strong> alguns dos nossos principais estudos e projetos. 😁
-Dentre eles, podemos destacar templates de Backend e Frontend com Arquitetura Limpa, além de repositórios voltados a DevOps como o DevMaua Setup. Nos nossos projetos visamos a agilidade e contamos com diversas esteiras de CI/CD, além de infraestrutura Serverless com AWS. ☁️
+Dentre eles, podemos destacar templates de [Backend](https://github.com/Maua-Dev/clean_mss_template) e Frontend com Arquitetura Limpa, além de repositórios voltados a DevOps como o [DevMaua Setup](https://github.com/Maua-Dev/devmaua_setup) e [CI Workflows](https://github.com/Maua-Dev/ci_workflows_reusable). Nos nossos projetos visamos a agilidade e contamos com diversas esteiras de CI/CD, além de infraestrutura Serverless com AWS. ☁️
 
 ## Quais nossos principais projetos? ⚒️
 
-A Dev. Community Mauá já realizou diversos projetos juntamente com o IMT, entre eles a Smile 2022 e 2023 e o DevMédias. Além disso, temos projetos voltados ao público da faculdade, como o MauaFood e Portal Interno. 🧱
+A Dev. Community Mauá já realizou diversos projetos juntamente com o IMT, entre eles a SMILE (2022 e 2023) e o DevMédias. Além disso, temos projetos voltados ao público da faculdade, como o MauaFood e Portal Interno. 🧱
 Estamos em busca de expandir cada vez mais nossos horizontes, realizando projetos internos e externos. ✈️
 
 ## Como entrar em contato?
